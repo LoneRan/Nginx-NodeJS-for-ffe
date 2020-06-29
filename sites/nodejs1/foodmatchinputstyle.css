@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(63, 182, 230);
+}
+
+#upperloading {
+    
+    width: 2000px;
+    
+    
+}
+
+.food_image{
+    
+   
+    margin-right: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    
+    border: 3px solid white;
+   
+}
+.heading {
+    color: white;
+    background: #f59e2d;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    overflow: auto;
+    background-image: url(background.jpg);
+}
+h1 {
+    width: auto;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    
+}
+
+ul {
+    text-align: center;
+    color: white;
+    background-color: lightslategray;
+
+}
+
+
+
+
+
+
+
+#input_area {
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.field,
+
+form label {
+    
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-family: 'Gilroy-Medium';
+    float: top;
+}
+.field,
+
+form input {
+    background: #1E1F27;
+    text-align: center;
+    width: 300px;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    color: #fff;
+    font-family: 'Gilroy-Medium';
+    border: 0;
+}
+
+.field,
+form select {
+    text-align: center;
+    background: #1E1F27;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    color: #fff;
+    font-family: 'Gilroy-Medium';
+    border: 0;
+}
+.field,
+form button{
+    text-align: center;
+    background: #1E1F27;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+   
+    font-family: 'Gilroy-Medium';
+    border: 0;
+}
+footer {
+    color: white;
+    background: lightcoral;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+

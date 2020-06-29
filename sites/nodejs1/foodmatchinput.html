@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>We respect your privacy</title>
+    <link rel="stylesheet" href="foodmatchinputstyle.css" type="text/css">
+</head>
+
+<body>
+    <div id="upperloading" class> 
+    
+        <div class="inner">
+            <!--<img class="food_image" src="Waffle-Mania-Final-4.jpg" alt="foodmatch logo">-->
+            <div class="heading">
+                <h1>Tell me about you and I will give what's perfect for you!</h1>
+                <br>
+               
+                <hr>
+                <ul>
+                    <li>Set you monthly bugget </li>
+                    <li>Tell us what's your favorite food</li>
+                    <li>Carnivore or Herbivore?</li>
+                    <li>We have Asian, Euro, etc all over the world</li>
+                    <li>Let's Begin</li>
+                </ul>
+            </div>
+        </div>
+    
+
+        
+          
+    </div>
+
+  
+
+    <div id="input_area" class>
+        <form action="http://167.71.116.207:8080/example" method="POST">
+            <div class="field">
+                <label for="name-input">First Name*</br></label>
+                <input name="fname" type="text" id="name-input" data-ref="input" data-required="true">
+            </div>
+            <div class="field">
+                <label for="name-input">Last Name*</br></label>
+                <input name="lname" type="text" id="name-input" data-ref="input" data-required="true">
+            </div>
+            <div class="field">
+                <label for="bugget-input">Monthly Bugget*</br></label>
+                <input name="bugget" type="text" id="bugget-input" data-ref="input" data-required="true">
+            </div>
+            <div class="field">
+                <label for="meals-select">How many meals a day</br></label>
+                <select name = "options" id="meal-num">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="veggie-select">Are you vegetarian?</br></label>
+                <select name="options" id="veggie">
+                    <option value="True">Yes</option>
+                    <option value="False">No, I'm not a protected vegetarian</option>
+                    <option value="Null">I don't want to answer</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="age-select">How many meals a day</br></label>
+                <select name = "options" id="age-num">
+                    <option value=10>5-15</option>
+                    <option value=20>15-25</option>
+                    <option value=30>25-35</option>
+                    <option value=40>35-40</option>
+                </select>
+            </div>
+            <div class="button">
+                <label for="sub-button"></label>
+                <input type="submit"  value="submit" onclick="msg()">  
+            </div>
+        </form>
+        
+
+    
+    </div>
+
+
+    <script>
+        function InputInfo() {
+            document.getElementById("demo").innerHTML = "Hello, please input";
+        }
+        function msg() {
+            alert("Submit successfully");
+            window.location.herf='http://167.71.116.207/moreinfo';
+        }
+    </script>
+
+    <footer>
+      <small><strong>By Yibo Wang</strong> &nbsp; &bull; &nbsp; <i>Demo Site</i></small>
+    </footer>
+
+</body>
+
+</html>
